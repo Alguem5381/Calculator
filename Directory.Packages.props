@@ -7,5 +7,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageVersion Include="FlowOnRails" Version="0.2.0" />
+    <PackageVersion Include="Sprache" Version="2.3.1" />
   </ItemGroup>
 </Project>

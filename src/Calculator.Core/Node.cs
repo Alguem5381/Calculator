@@ -1,3 +1,8 @@
-﻿namespace Calculator.Core;
+﻿using FlowOnRails;
 
-public class Node;
+namespace Calculator.Core;
+
+public abstract class Node
+{
+    public abstract RailFor<double> Resolve(Context context);
+}
